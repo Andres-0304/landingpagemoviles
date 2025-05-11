@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EzPark | Encuentra tu estacionamiento</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<header class="main-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/logo.svg" alt="Logo EzPark" class="logo-img">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#producto">Producto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#caracteristicas">Características</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonios">Testimonios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#precios">Precios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobreNosotros">Sobre nosotros</a>
+                        </li>
+                    </ul>
+                    <div class="nav-buttons ms-lg-3">
+                        <a href="#" class="btn btn-registro">Registrar</a>
+                        <a href="#" class="btn btn-login">Iniciar Sesión</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+<main>
+  <section class="heroSection">
+    <div class="heroContent">
+      <h1>Estaciona <span class="highlight">rápido</span> y <span>ahorra <span class="highlight">tiempo</span></span></h1>
+      <p>Encuentra fácilmente estacionamiento desde la<span> comodidad de tu dispositivo</span></p>
+      <a href="#" class="btnConocerMas">Conocer más</a>
+    </div>
+    <div class="heroImage">
+      <img src="assets/img/phone.png" alt="App mockup" />
+    </div>
+  </section>
+
+  <section class="sectionInfo" id="producto">
+    <h2>¿Qué es EzPark?</h2>
+    <p>Es una aplicación para encontrar, reservar y promocionar servicios de estacionamientos en grandes residenciales.</p>
+    <div class="infoCards">
+      <div class="infoCard">
+        <div class="cardIcon">
+          <img src="assets/img/Product-0.svg" alt="ubicacion">
+        </div>
+        <div class="cardText">
+          <p>Reduce el tiempo de búsqueda de estacionamiento.</p>
+        </div>
+      </div>
+        <div class="infoCard">
+          <div class="cardIcon">
+            <img src="assets/img/Product-1.svg" alt="time">
+          </div>
+          <div class="cardText">
+            <p>Ayuda a la reducción de la congestión vehicular.</p>
+          </div>
+        </div>
+        <div class="infoCard">
+            <div class="cardIcon">
+              <img src="assets/img/Product-2.svg" alt="car">
+            </div>
+            <div class="cardText">
+              <p>Forma de generar ingresos adicionales de arrendamiento.</p>
+              </div>
+            </div>
+    </div>
+
+  </section>
+
+  <section class="sectionUso" id="caracteristicas">
+    <h2>Fácil y simple de usar</h2>
+    <p>Aplicación intuitiva, moderna y simplista para ofrecer la mejor experiencia a nuestros usuarios.</p>
+    <div class="usoCards">
+      <div class="usoCard">
+        <div class="usoCardIcon">
+          <img src="assets/img/Features-0.svg" alt="Icono de estacionamiento" />
+        </div>
+        <div class="usoCardText">
+          <h3>Escoge el espacio</h3>
+          <p>Elije entre diversas opciones <span>para estacionar en el mapa.</span></p>
+        </div>
+      </div>
+      <div class="usoCard">
+        <div class="usoCardIcon">
+          <img src="assets/img/Features-1.svg" alt="Icono de estacionamiento" />
+        </div>
+        <div class="usoCardText">
+          <h3>Establece el tiempo</h3>
+          <p>Ingresa el rango de horas que <span>deseas usar el servicio.</span></p>
+        </div>
+      </div>
+      <div class="usoCard">
+        <div class="usoCardIcon">
+          <img src="assets/img/Features-2.svg" alt="Icono de estacionamiento" />
+        </div>
+        <div class="usoCardText">
+          <h3>Estaciona tu vehículo</h3>
+          <p>Acercate al lugar del servicio y <span>estaciona en el garaje</span> seleccionado.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials-section" id="testimonios">
+    <h2>Con la confianza de miles de <span>clientes satisfechos</span></h2>
+    <div class="testimonials-container">
+      <div class="testimonials-carousel">
+        <!-- Grupo 1 -->
+        <div class="testimonial-group active">
+          <!-- Testimonio 1 -->
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="testimonial-img-placeholder">
+                <img src="assets/img/MariaPerez.jpg" alt="Maria Perez">
+              </div>
+              <div class="testimonial-user-info">
+                <div class="name-rating">
+                  <h3 class="testimonial-name">Maria Perez</h3>
+                  <span class="testimonial-rating">★ 5.0</span>
+                </div>
+                <p class="testimonial-location">Lima, Peru</p>
+              </div>
+            </div>
+            <blockquote class="testimonial-text">
+              Excelente servicio! Los estacionamientos son seguros y el personal es muy amable. Recomiendo esta aplicación a todos los propietarios de viviendas en Lima.
+            </blockquote>
+          </div>
+          
+          <!-- Testimonio 2 -->
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="testimonial-img-placeholder">
+                <img src="assets/img/CarlosRodriguez.jpg" alt="Carlos Rodriguez">
+              </div>
+              <div class="testimonial-user-info">
+                <div class="name-rating">
+                  <h3 class="testimonial-name">Carlos Rodriguez</h3>
+                  <span class="testimonial-rating">★ 4.5</span>
+                </div>
+                <p class="testimonial-location">Arequipa, Peru</p>
+              </div>
+            </div>
+            <blockquote class="testimonial-text">
+              Muy útil para encontrar estacionamientos cerca de mi casa. La aplicación es fácil de usar y los precios son razonables. ¡Gracias!
+            </blockquote>
+          </div>
+          
+          <!-- Testimonio 3 -->
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="testimonial-img-placeholder">
+                <img src="assets/img/AnaGomez.jpg" alt="Ana Gomez">
+              </div>
+              <div class="testimonial-user-info">
+                <div class="name-rating">
+                  <h3 class="testimonial-name">Ana Gomez</h3>
+                  <span class="testimonial-rating">★ 4.0</span>
+                </div>
+                <p class="testimonial-location">Trujillo, Peru</p>
+              </div>
+            </div>
+            <blockquote class="testimonial-text">
+              Me encanta esta aplicación. Siempre encuentro estacionamientos disponibles y el proceso de reserva es muy sencillo.
+            </blockquote>
+          </div>
+        </div>
+        
+        <!-- Grupo 2 -->
+        <div class="testimonial-group">
+          <!-- Testimonio 4 -->
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="testimonial-img-placeholder">
+                <img src="assets/img/PedroSanchez.jpg" alt="Pedro Sanchez">
+              </div>
+              <div class="testimonial-user-info">
+                <div class="name-rating">
+                  <h3 class="testimonial-name">Pedro Sanchez</h3>
+                  <span class="testimonial-rating">★ 3.5</span>
+                </div>
+                <p class="testimonial-location">Cusco, Peru</p>
+              </div>
+            </div>
+            <blockquote class="testimonial-text">
+              Buen servicio en general. A veces los precios son un poco altos, pero en general estoy satisfecho.
+            </blockquote>
+          </div>
+          
+          <!-- Testimonio 5 -->
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="testimonial-img-placeholder">
+                <img src="assets/img/LauraTorres.jpg" alt="Laura Torres">
+              </div>
+              <div class="testimonial-user-info">
+                <div class="name-rating">
+                  <h3 class="testimonial-name">Laura Torres</h3>
+                  <span class="testimonial-rating">★ 4.2</span>
+                </div>
+                <p class="testimonial-location">Piura, Peru</p>
+              </div>
+            </div>
+            <blockquote class="testimonial-text">
+              La aplicación es muy útil para encontrar estacionamientos cerca de mi trabajo. Los precios son razonables y el servicio es confiable.
+            </blockquote>
+          </div>
+          
+          <!-- Testimonio 6 -->
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="testimonial-img-placeholder">
+                <img src="assets/img/DiegoChavez.jpg" alt="Diego Chavez">
+              </div>
+              <div class="testimonial-user-info">
+                <div class="name-rating">
+                  <h3 class="testimonial-name">Diego Chavez</h3>
+                  <span class="testimonial-rating">★ 4.8</span>
+                </div>
+                <p class="testimonial-location">Chiclayo, Peru</p>
+              </div>
+            </div>
+            <blockquote class="testimonial-text">
+              Excelente aplicación. Me ha ayudado a ahorrar tiempo y dinero al encontrar estacionamientos seguros y a buen precio.
+            </blockquote>
+          </div>
+        </div>
+        
+        <!-- Grupo 3 -->
+        <div class="testimonial-group">
+          <!-- Testimonio 7 -->
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="testimonial-img-placeholder">
+                <img src="assets/img/SofiaRamirez.jpg" alt="Sofia Ramirez">
+              </div>
+              <div class="testimonial-user-info">
+                <div class="name-rating">
+                  <h3 class="testimonial-name">Sofia Ramirez</h3>
+                  <span class="testimonial-rating">★ 4.6</span>
+                </div>
+                <p class="testimonial-location">Iquitos, Peru</p>
+              </div>
+            </div>
+            <blockquote class="testimonial-text">
+              Muy buena aplicación. Los estacionamientos son seguros y el personal es amable. La recomendaría a mis amigos y familiares.
+            </blockquote>
+          </div>
+          
+          <!-- Testimonio 8 -->
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="testimonial-img-placeholder">
+                <img src="assets/img/JavierCastro.jpg" alt="Javier Castro">
+              </div>
+              <div class="testimonial-user-info">
+                <div class="name-rating">
+                  <h3 class="testimonial-name">Javier Castro</h3>
+                  <span class="testimonial-rating">★ 3.9</span>
+                </div>
+                <p class="testimonial-location">Tacna, Peru</p>
+              </div>
+            </div>
+            <blockquote class="testimonial-text">
+              La aplicación es fácil de usar y los estacionamientos son seguros. Sin embargo, a veces es difícil encontrar disponibilidad en horas punta.
+            </blockquote>
+          </div>
+          
+          <!-- Testimonio 9 -->
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="testimonial-img-placeholder">
+                <img src="assets/img/ValeriaLopez.jpg" alt="Valeria Lopez">
+              </div>
+              <div class="testimonial-user-info">
+                <div class="name-rating">
+                  <h3 class="testimonial-name">Valeria Lopez</h3>
+                  <span class="testimonial-rating">★ 4.1</span>
+                </div>
+                <p class="testimonial-location">Huancayo, Peru</p>
+              </div>
+            </div>
+            <blockquote class="testimonial-text">
+              Buena aplicación para encontrar estacionamientos cerca de mi casa. Los precios son razonables y el servicio es confiable.
+            </blockquote>
+          </div>
+        </div>
+        
+        <!-- Grupo 4 -->
+        <div class="testimonial-group">
+          <!-- Testimonio 10 -->
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="testimonial-img-placeholder">
+                <img src="assets/img/RicardoFernandez.jpg" alt="Ricardo Fernandez">
+              </div>
+              <div class="testimonial-user-info">
+                <div class="name-rating">
+                  <h3 class="testimonial-name">Ricardo Fernandez</h3>
+                  <span class="testimonial-rating">★ 4.3</span>
+                </div>
+                <p class="testimonial-location">Chimbote, Peru</p>
+              </div>
+            </div>
+            <blockquote class="testimonial-text">
+              Me gusta esta aplicación. Es fácil de usar y siempre encuentro estacionamientos disponibles cerca de mi ubicación.
+            </blockquote>
+          </div>
+          
+          <!-- Testimonio 11 -->
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="testimonial-img-placeholder">
+                <img src="assets/img/IsabellaMorales.jpg" alt="Isabella Morales">
+              </div>
+              <div class="testimonial-user-info">
+                <div class="name-rating">
+                  <h3 class="testimonial-name">Isabella Morales</h3>
+                  <span class="testimonial-rating">★ 4.7</span>
+                </div>
+                <p class="testimonial-location">Ica, Peru</p>
+              </div>
+            </div>
+            <blockquote class="testimonial-text">
+              Excelente servicio. Los estacionamientos son seguros y el personal es amable. La recomendaría a otros conductores.
+            </blockquote>
+          </div>
+          
+          <!-- Testimonio 12 -->
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="testimonial-img-placeholder">
+                <img src="assets/img/JuanPerez.jpg" alt="Juan Perez">
+              </div>
+              <div class="testimonial-user-info">
+                <div class="name-rating">
+                  <h3 class="testimonial-name">Juan Perez</h3>
+                  <span class="testimonial-rating">★ 4.9</span>
+                </div>
+                <p class="testimonial-location">Lima, Peru</p>
+              </div>
+            </div>
+            <blockquote class="testimonial-text">
+              La aplicación es genial. Siempre encuentro estacionamientos disponibles y el proceso de reserva es muy rápido.
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Controles del carrusel -->
+      <div class="carousel-controls">
+        <button class="carousel-prev" aria-label="Anterior">‹</button>
+        <div class="carousel-dots">
+          <span class="dot active" data-index="0"></span>
+          <span class="dot" data-index="1"></span>
+          <span class="dot" data-index="2"></span>
+          <span class="dot" data-index="3"></span>
+        </div>
+        <button class="carousel-next" aria-label="Siguiente">›</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="sectionPrecios" id="precios">
+    <h2>Precios</h2>
+    <p>EzPark es de uso gratuito para todos. Solo paga por alquiler de estacionamientos y gana dinero por sus servicios.</p>
+    
+    <div class="precioCards">
+      <div class="cardPrecio">
+        <div class="cardPrecioIcon">
+          <img src="assets/img/Pricing-0.svg" alt="Icono de ubicación">
+        </div>
+        <div class="cardPrecioText">
+          <h3>Decida el servicio según su comodidad</h3>
+          <p>Elija el tiempo de servicio y tarifa que se adecuen a su preferencia.</p>
+        </div>
+      </div>
+
+      <div class="cardPrecio">
+        <div class="cardPrecioIcon">
+          <img src="assets/img/Pricing-1.svg" alt="Icono de ubicación">
+        </div>
+        <div class="cardPrecioText">
+          <h3>Pagos rapidos y seguros</h3>
+          <p>Pasarela de pagos verificados por varias organizaciones y entidades bancarias.</p>
+        </div>
+      </div>
+
+      <div class="cardPrecio">
+        <div class="cardPrecioIcon">
+          <img src="assets/img/Pricing-2.svg" alt="Icono de ubicación">
+        </div>
+        <div class="cardPrecioText">
+          <h3>Ganancias diaria</h3>
+          <p>Genere ingresos pasivos y/o activos diarios con nuestra aplicación.</p>
+        </div>
+      </div>
+
+      <div class="cardPrecio">
+        <div class="cardPrecioIcon">
+          <img src="assets/img/Pricing-3.svg" alt="Icono de ubicación">
+        </div>
+        <div class="cardPrecioText">
+          <h3>Muchas tarifas, muchos garajes</h3>
+          <p>¡No te quedes sin alternativas! Elija entre la gran variedad de estacionamientos disponibles.</p>
+        </div>
+      </div>
+
+      <div class="cardPrecio">
+        <div class="cardPrecioIcon">
+          <img src="assets/img/Pricing-4.svg" alt="Icono de ubicación">
+        </div>
+        <div class="cardPrecioText">
+          <h3>Establezca la tarifa por su estacionamiento</h3>
+          <p>Ajuste los precios y promocione su servicio a miles de conductores.</p>
+        </div>
+      </div>
+
+      <div class="cardPrecio">
+        <div class="cardPrecioIcon">
+          <img src="assets/img/Pricing-5.svg" alt="Icono de ubicación">
+        </div>
+        <div class="cardPrecioText">
+          <h3>Transferencia de pagos al instante</h3>
+          <p>Comunicación directa con entidades bancarias de su preferencia.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sectionNosotros" id="sobreNosotros">
+    <h2>Sobre nosotros</h2>
+    <p>Conoce al equipo encargado de este proyecto innovador</p>
+    <div class="equipo">
+      <div class="equipoCard">
+        <div class="equipoCardIcon">
+          <img src="assets/img/mauricio.PNG" alt="Mauricio Oliveira">
+        </div>
+        <div class="equipoCardText">
+          <p><strong>Mauricio Oliveira</strong><br />Ingeniero de Software</p>
+        </div>
+      </div>
+      <div class="equipoCard">
+        <div class="equipoCardIcon">
+          <img src="assets/img/diego.jpg" alt="Diego Alonso">
+        </div>
+        <div class="equipoCardText">
+          <p><strong>Diego Alonso</strong><br />Ingeniero de Software</p>
+        </div>
+      </div>
+      <div class="equipoCard">
+        <div class="equipoCardIcon">
+          <img src="assets/img/Andres.jpg" alt="Andres Rodriguez">
+        </div>
+        <div class="equipoCardText"> 
+          <p><strong>Andres Rodriguez</strong><br />Ingeniero de Software</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+  <footer class="mainFooter">
+    <img src="assets/img/logo-white.svg" alt="Logo EzPark blanco">
+    <p>©2025 EzPark. Todos los derechos reservados</p>
+    <div class="socialIcons">
+      <a href="#"><img src="assets/img/facebook.svg" alt="Facebook" /></a>
+      <a href="#"><img src="assets/img/instagram.svg" alt="Instagram" /></a>
+      <a href="#"><img src="assets/img/twitter.svg" alt="Twitter" /></a>
+    </div>
+  </footer>
+  <script src="assets/js/app.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   <button id="scrollTopBtn" class="scrollTopBtn" aria-label="Volver al inicio">
+      ↑
+    </button>
+</body>
+</html>
